@@ -43,3 +43,6 @@ jobs:
 
       - name: run.py
         run: python3 ./run.py '${{ secrets.FUDAN }}'
+        
+      - name: Keepalive Workflow
+        uses: gautamkrishnar/keepalive-workflow@1.0.10
